@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 """
-Collate a set of files containing TimeSeries into a single DataFrame.
+Collate a set of files from the SensorLab project, each containing a single
+TimeSeries, into a single DataFrame (per type of data).
 """
-__author__ = 'Martin Blais <blais@furius.ca>'
+__author__ = "Martin Blais <blais@furius.ca>"
 
 import os, re
 from os.path import *
